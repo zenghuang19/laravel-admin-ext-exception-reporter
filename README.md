@@ -19,7 +19,7 @@ $ composer require exception-reporter/laravel-admin-ext -vvv
 
 $ php artisan vendor:publish --tag=laravel-admin-reporter
 
-$ php artisan migrate --path=vendor/laravel-admin-ext/reporter/database/migrations
+$ php artisan migrate --path=vendor/exception-reporter/laravel-admin-ext/database/migrations
 
 $ php artisan admin:import reporter
 ```
