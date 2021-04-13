@@ -15,7 +15,7 @@ class ReporterServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole()) {
             $this->publishes(
-                [__DIR__.'/../resources/assets/' => public_path('vendor/laravel-admin-reporter')],
+                [__DIR__.'/../resources/assets/' => public_path('vendor/exception-reporter\laravel-admin-ext')],
                 'laravel-admin-reporter'
             );
 

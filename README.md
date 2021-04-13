@@ -15,7 +15,7 @@ This tool stores the exception information into the database and provides a deve
 ## Installation 
 
 ```
-$ composer require laravel-admin-ext/reporter -vvv
+$ composer require exception-reporter/laravel-admin-ext -vvv
 
 $ php artisan vendor:publish --tag=laravel-admin-reporter
 
